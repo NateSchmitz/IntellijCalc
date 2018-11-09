@@ -11,7 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        float result = 0;
+        float result;
         String firstNumber;
         String secondNumber;
         JOptionPane.showMessageDialog(null,
@@ -88,6 +88,7 @@ public class Main {
             } else if (choice == 4) {
                 System.exit(0);
             }
+            System.out.println("Goodbye world");
         }
     }
 }
