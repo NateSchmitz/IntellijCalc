@@ -1,11 +1,9 @@
 package com.nateschmitz.CalcFinal;
 
 import com.sun.jdi.FloatValue;
-
 import java.util.Objects;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
-
 
 public class Main {
 
