@@ -87,7 +87,6 @@ public class Main {
                 System.exit(0);
             }
             System.out.println("Goodbye world");
-end
         }
     }
 }
