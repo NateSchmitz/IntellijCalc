@@ -6,42 +6,56 @@
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties>
-      <background color="-1"/>
+      <background color="-13028300"/>
+      <enabled value="true"/>
     </properties>
-    <border type="none"/>
+    <border type="etched" title="Calculator" title-justification="1">
+      <font/>
+      <title-color color="-4868683"/>
+    </border>
     <children>
       <component id="3533d" class="javax.swing.JButton" binding="a1Button" default-binding="true">
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-16318209"/>
           <text value="1"/>
+          <toolTipText value="Integer 1"/>
         </properties>
       </component>
       <component id="e5296" class="javax.swing.JButton" binding="a4Button" default-binding="true">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-16711930"/>
+          <enabled value="true"/>
+          <foreground color="-14474461"/>
           <text value="4"/>
+          <toolTipText value="integer 4"/>
         </properties>
       </component>
       <component id="4d049" class="javax.swing.JButton" binding="a3Button" default-binding="true">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-65509"/>
           <text value="3"/>
+          <toolTipText value="Integer 3"/>
         </properties>
       </component>
       <component id="f3e4f" class="javax.swing.JButton" binding="a2Button" default-binding="true">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-65293"/>
           <enabled value="true"/>
           <font/>
           <text value="2"/>
+          <toolTipText value="Integer 2"/>
         </properties>
       </component>
     </children>
