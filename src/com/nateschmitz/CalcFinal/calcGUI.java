@@ -17,7 +17,7 @@ public class calcGUI {
     private JButton a7Button;
     private JButton a8Button;
     private JButton a9Button;
-    boolean butt[] = {false,false,false,false};
+    boolean butt[] = {false, false, false, false};
     int progressVal;
 
     public calcGUI() {
@@ -28,8 +28,6 @@ public class calcGUI {
                 butt[0] = true;
                 progressBar1.setValue(progressVal);
                 //JOptionPane.showMessageDialog(null, "You clicked button 1", "Listener", JOptionPane.PLAIN_MESSAGE);
-
-
             }
         });
         a2Button.addActionListener(new ActionListener() {
